@@ -1,33 +1,59 @@
 .App {
   text-align: center;
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.st0 {
+  fill: none;
+}
+.st1 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+}
+.st2 {
+  font-family: "AmericanTypewriter";
+}
+.st3 {
+  font-size: 3.7rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title {
+  height: 40vh;
+  width: 100vw;
+  margin-top: 5vh;
+}
+
+.Buttons {
+  height: 20vh;
+  margin-top: -15vh;
+}
+.Response {
+  height: 30vh;
+  margin-top: 10vh;
+}
+.gameButton {
+  background-color: white;
+  width: 40vw;
+  height: 100px;
+  margin: 10px;
+  border: none;
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.gameButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.gameButton:active {
+  border-style: none;
 }
